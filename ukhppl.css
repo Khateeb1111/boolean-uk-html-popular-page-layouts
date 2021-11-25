@@ -1,0 +1,108 @@
+html, body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.layout {
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template: 
+    "Header1   Header1    Header1" 50px
+    "Left1     Main1      Right1" 1fr
+    "Left2     Main2      Right2" 1fr 
+    "Left3     Main3      Right3" 1fr /
+    1fr 
+    
+
+}    
+
+.Header1 {
+    grid-area: Header1;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Left1 {
+    grid-area: Left1;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Main1 {
+    grid-area: Main1;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Right1 {
+    grid-area: Right1;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Left2 {
+    grid-area: Left2;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Main2 {
+    grid-area: Main2;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Right2 {
+    grid-area: Right2;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Left3 {
+    grid-area: Left3;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Main3 {
+    grid-area: Main3;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Right3 {
+    grid-area: Right3;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+}
